@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Covid19 Zone
 
+[https://mnv936.github.io/covidzone](https://mnv936.github.io/covidzone)
+
 [API](https://api.covid19india.org/zones.json) for getting COVID zones
 
 ## Available Scripts
