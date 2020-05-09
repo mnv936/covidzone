@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+input {
+  margin: 1rem;
+  width: 20rem;
+  padding: 1rem .5rem;
+}
+.district-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Red {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 2px solid #ff5f5f;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 10px;
+  width: 17rem;
+  display: flex;
+  justify-content: space-evenly;
+  transition-duration: 0.3s;
+}
+.Orange {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 2px solid #ffbb54;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 10px;
+  width: 17rem;
+  display: flex;
+  justify-content: space-evenly;
+  transition-duration: 0.3s;
+}
+.Green {
+  border: 2px solid #96ff76;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 12px;
+  border-radius: 8px;
+  margin: 10px;
+  width: 17rem;
+  display: flex;
+  justify-content: space-evenly;
+  transition-duration: 0.3s;
+}
+.heading {
+  padding-bottom: 10px;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+.downshift {
+  display: flex;
+}
+.downshift-dropdown {
+  margin: 0 auto;
+  width: 18rem;
+  border: 10px solid whitesmoke;
+  border-bottom: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.downshift-input {
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  border-color: transparent;
+  width: 20rem;
+  transition-duration: 0.4s;
+}
+.dropdown-item {
+  display: flex;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-bottom: 10px solid whitesmoke;
+  font-size: 1rem;
+  text-align: left;
+}
+.dropdown-button {
+  padding: 0.6rem;
+  border-radius: 5px;
+  background: white;
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Appgamma {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  min-height: 100vh;
+}
+.mainapp {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+.reset {
+  border-radius: 2px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-color: transparent;
+  transition-duration: 0.4s;
+  width: 4rem;
+  height: 2rem;
+}
+.reset:hover {
+  width: 5rem;
+  background-color: rgb(83, 81, 81);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.Green:hover {
+  border-color: rgb(83, 81, 81);
+  color: black;
+  background-color: rgb(202, 255, 201);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Orange:hover {
+  border-color: rgb(83, 81, 81);
+  color: black;
+  background-color: rgb(255, 236, 183);
+}
+.Red:hover {
+  border-color: rgb(83, 81, 81);
+  color: black;
+  background-color: rgb(255, 213, 213);
+}
+.downshift-input:hover {
+  border-color: rgb(83, 81, 81);
 }
