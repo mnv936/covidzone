@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-#Covid19 Zone
+# Covid19 Zone
 
 [API](https://api.covid19india.org/zones.json) for getting COVID zones
 
